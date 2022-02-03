@@ -6,6 +6,8 @@ NO_COLOR='\033[0m'
 BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
 
+gh auth $token
+
 timestamp() {
   date +"%s"
 }
