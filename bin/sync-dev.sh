@@ -6,7 +6,7 @@ NO_COLOR='\033[0m'
 BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
 
-gh auth login
+gh auth login --with-token $token
 
 timestamp() {
   date +"%s"
@@ -29,7 +29,7 @@ git pull
 echo "${ORANGE}Checkout from dev -> ${GREEN}${PR_BRANCH_NAME}"
 git checkout -b ${PR_BRANCH_NAME}
 echo "${ORANGE}Merge ${GREEN}main${ORANGE} -> ${GREEN}${PR_BRANCH_NAME}${NO_COLOR}"
-git merge main --commit --no-edit
+git merge main --commit --no-edit --allow-unrelated-histories
 git checkout --theirs .
 git add .
 git commit -m "merge commit"
