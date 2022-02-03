@@ -1,4 +1,4 @@
-# Welcome to Cloud Haiku [FORKED] 
+# Welcome to Cloud Haikuku [FORKED] 
 
 Cloud Haiku is an open-source repository that collects haikus about the cloud and cloud technology and publishes these haikus to its website.
 
