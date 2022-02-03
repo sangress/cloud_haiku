@@ -12,3 +12,5 @@ jobs:
       - run: ./bin/sync-dev.sh .
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
+          email: ${{ github.actor }}
+          username: ${{ github.username }}

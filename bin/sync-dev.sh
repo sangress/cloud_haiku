@@ -6,7 +6,11 @@ NO_COLOR='\033[0m'
 BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
 
+${{ github.actor }}
 gh auth login --with-token $token
+
+git config user.email $email
+git config user.name $username
 
 timestamp() {
   date +"%s"
