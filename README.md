@@ -1,4 +1,4 @@
-# Welcome to Cloud Haiku
+# Welcome to Cloud Haiku [FORKED] - sync 
 
 Cloud Haiku is an open-source repository that collects haikus about the cloud and cloud technology and publishes these haikus to its website.
 
@@ -48,7 +48,7 @@ Your haiku should be fun and challenging to write. You must ensure that it fits 
 
 Haikus are a traditional form of Japanese poetry. They are made up of three lines and have a total of 17 syllables. These poems follow the 5-7-5 format of syllables across the three lines.
 
-*Syllables* are a unit of organization for speech sounds that typically include a vowel. For example, the word **computer** is composed of three syllables: **com** - **put** - **er**.
+_Syllables_ are a unit of organization for speech sounds that typically include a vowel. For example, the word **computer** is composed of three syllables: **com** - **put** - **er**.
 
 Let's consider an example haiku from this repository:
 
@@ -63,9 +63,9 @@ Above, we see that the haiku is composed of 3 lines.
 The first line is 5 syllables long, the second line is 7 syllables long, and the third line is 5 syllables long.
 
 ```
-Dis-trib-ut-ed cloud  # 5 syllables  
-Like the oc-to-pus-es' minds  # 7 syllables  
-A-cross the net-work  # 5 syllables  
+Dis-trib-ut-ed cloud  # 5 syllables
+Like the oc-to-pus-es' minds  # 7 syllables
+A-cross the net-work  # 5 syllables
 ```
 
 In order to verify that you're using the right number of syllables, you can use a tool such as [http://www.haikusyllablecounter.com](http://www.haikusyllablecounter.com).
