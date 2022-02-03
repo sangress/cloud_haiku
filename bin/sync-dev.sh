@@ -10,7 +10,7 @@ ${{ github.actor }}
 gh auth login --with-token $token
 
 git config user.email $email
-git config user.name $username
+git config user.name $actor
 
 timestamp() {
   date +"%s"
