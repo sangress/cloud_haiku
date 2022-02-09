@@ -5,7 +5,7 @@ on:
       - main
 
 permissions:
-  pull-requests: read|write
+  pull-requests: write
 
 jobs:
   sync_dev:
