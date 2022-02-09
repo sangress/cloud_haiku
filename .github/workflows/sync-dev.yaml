@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+permissions:
+  pull-requests: read-all|write-all
+
 jobs:
   sync_dev:
     runs-on: ubuntu-latest
